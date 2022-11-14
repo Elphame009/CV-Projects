@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./CSS/swiper-bundle.min.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <title>Portfolio Website</title>
+    </head>
+    <body>
+        <!--=============================HEADER ==========================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Samanta</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+    
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-home"></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user"></i>About
+                                </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-wrench"></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt"></i>Services
+                            </a>
+                        </li>
+
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-notebooks"></i>Portfolio
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-envelope"></i>Contact
+                        </a>
+                    </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!--=========MODE CHANGE BUTTON=========-->
+                    <i class="uil uil-moon change-mode" id="mode-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--=============================MAIN==============================-->
+        <!--=============================HOME==============================-->
+<main class="main">
+    <section class="home section" id="home">
+        <div class="home__container container grid">
+            <div class="home__content grid">
+                <div class="home__social">
+                    <a href="https://github.com/Elphame009" target="_blank" class="home__social-icon">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/samanta-jurkowska-943b691ab/" target="_blank" class="home__social-icon">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                    <a href="https://www.instagram.com/elphame009/" target="_blank" class="home__social-icon">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="mask0" mask-type="alpha">
+                        <path fill="#010101" d="M39.7,-69.3C52.7,-61.2,65.5,-53.2,72.2,-41.7C78.8,-30.1,79.4,-15.1,80.1,0.4C80.7,15.8,81.4,31.6,75.1,43.7C68.7,55.7,55.2,64,41.5,70C27.8,75.9,13.9,79.4,1.7,76.4C-10.4,73.4,-20.9,63.8,-31,55.8C-41.1,47.8,-50.9,41.4,-60.7,32.4C-70.6,23.4,-80.4,11.7,-80.9,-0.3C-81.3,-12.2,-72.4,-24.4,-64.5,-36.7C-56.5,-49,-49.6,-61.4,-39,-70.9C-28.4,-80.3,-14.2,-86.8,-0.4,-86C13.3,-85.3,26.7,-77.3,39.7,-69.3Z" transform="translate(100 100)"/>
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <image class="home__blob-img" x='12' y='18' xlink:href="Images/Personal.jpg"/>
+                    </g>
+                      </svg>
+                </div>
+                <div class="home__data">
+                    <h1 class="home__title">Hi, my name is Samanta</h1>
+                    <h3 class="home__subtitle">Aspiring Frontend Developer</h3>
+                    <p class="home__description">My goal is to reach the highest standards in web design and product quality.</p>
+                    <a href="#contact" class="button button--flex">
+                        Hire Me <i class="uil uil-message" bottom__icon></i>
+                    </a>
+                </div>
+            </div>
+            <div class="home__scroll">
+                <a href="#about" class="home_scroll-button button--flex"><i class="uil uil-mouse home__scroll-mouse"></i>
+                <span class="home__scroll-name">Scroll down</span>
+                <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--=============================ABOUT ME=============================-->
+    <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+        <div class="about__container container grid">
+            <img src="./Images/Personal2-kopia.jpg" alt="" class="about__img">
+            <div class="about__data">
+                <p class="about__description">I'm currently a graduate student at Waseda Univeristy aspiring to become a front-end web developer. I can provide clean code and pixel perfect design. I would like to make the website more interactive with web animations. A responsive design makes your website accessible to all users, regardless of their device.</p>
+                <div class="about__info">
+                  <div>
+                      <span class="about__info-title">168+</span>
+                      <span class="about__info-name">Hours<br>coding</span>
+                  </div>
+                  <div>
+                    <span class="about__info-title">03+</span>
+                    <span class="about__info-name">Mastered<br>languages</span>
+                </div>
+                <div>
+                    <span class="about__info-title">05+</span>
+                    <span class="about__info-name">Completed<br>projects</span>
+                </div>
+                </div>
+                <div class="about__buttons">
+                    <a download="" href="./PDF/Samanta Jurkowska-履歴書-kopia.pdf" class="button button--flex">
+                        Download CV<i class="uil uil-import button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--===========================SKILLS=============================-->
+
+    <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technical level</span>
+        <div class="skills_container container grid">
+            <div>
+
+                <!--==========SKILLS PT.1==============-->
+                <div class="skills__content skills__open">
+                    <div class="skills__header">
+                        <i class="uil uil-brackets-curly skills__icon"></i>
+                      
+                        <div>
+                            <h1 class="skills__title">Frontend developer</h1>
+                            <span class="skills__subtitle">More than 170 hours</span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">HTML</h3>
+                                <span class="skills__number">85%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__html"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">CSS</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__css"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">JavaScript</h3>
+                                <span class="skills__number">30%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__js"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">React</h3>
+                                <span class="skills__number">40%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__react"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--=================SKILLS PT.2===================-->
+
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-english-to-chinese skills__icon"></i>
+                      
+                        <div>
+                            <h1 class="skills__title">Languages</h1>
+                            <span class="skills__subtitle">More than foreign languages</span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Polish</h3>
+                                <span class="skills__number">100%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__polish"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">English</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__english"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Japanese</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__japanese"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=======================SERVICES==============================-->
+
+    <section class="services section" id="services">
+        <h2 class="section__title">Services</h2>
+        <span class="section__subtitle">What I offer</span>
+
+        <div class="services__container container grid">          
+
+<!--=======================SERVICES PT 1==============================-->
+ <div class="services__content">
+     <div>
+         <i class="uil uil-web-grid services__icon"></i>
+         <h3 class="services__title">Home Page</h3>
+     </div>
+     <span class="button button--flex button--small button--link services__button">
+         View More
+         <i class="uil uil-arrow-right button__icon"></i>
+     </span>
+     <div class="services__modal">
+         <div class="services__modal-content">
+             <h4 class="services__modal-title">Home Page</h4>
+             <i class="uil uil-times services__modal-close"></i>
+
+             <ul class="services__modal-services grid">
+                 <li class="services__modal-service">
+                     <i class="uil uil-check-circle services__modal-icon"></i>
+                     <p>I develop an original design</p>
+                 </li>
+                 <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Web page content</p>
+                </li>
+                <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Smart and well thought interface</p>
+                </li>
+                <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I position your company brand</p>
+                </li>
+             </ul>
+         </div>
+     </div>
+ </div>
+ <!--=======================SERVICES PT 2==============================-->
+ <div class="services__content">
+    <div>
+        <i class="uil uil-shopping-cart services__icon"></i>
+        <h3 class="services__title">Online Shop</h3>
+    </div>
+    <span class="button button--flex button--small button--link services__button">
+        View More
+        <i class="uil uil-arrow-right button__icon"></i>
+    </span>
+    <div class="services__modal">
+        <div class="services__modal-content">
+            <h4 class="services__modal-title">Online Shop</h4>
+            <i class="uil uil-times services__modal-close"></i>
+
+            <ul class="services__modal-services grid">
+                <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I develop an original design</p>
+                </li>
+                <li class="services__modal-service">
+                   <i class="uil uil-check-circle services__modal-icon"></i>
+                   <p>Well organization of the products</p>
+               </li>
+               <li class="services__modal-service">
+                   <i class="uil uil-check-circle services__modal-icon"></i>
+                   <p>Easily accessible interface</p>
+               </li>
+               <li class="services__modal-service">
+                   <i class="uil uil-check-circle services__modal-icon"></i>
+                   <p>I position your company brand</p>
+               </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--=======================SERVICES PT 3==============================-->
+<div class="services__content">
+    <div>
+        <i class="uil uil-apps services__icon"></i>
+        <h3 class="services__title">Web Apps / Games</h3>
+    </div>
+    <span class="button button--flex button--small button--link services__button">
+        View More
+        <i class="uil uil-arrow-right button__icon"></i>
+    </span>
+    <div class="services__modal">
+        <div class="services__modal-content">
+            <h4 class="services__modal-title">Web Apps / Games</h4>
+            <i class="uil uil-times services__modal-close"></i>
+
+            <ul class="services__modal-services grid">
+                <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I can create basic apps and games</p>
+                </li>
+                <li class="services__modal-service">
+                   <i class="uil uil-check-circle services__modal-icon"></i>
+                   <p>Entertainment, bussiness or educational purposes</p>
+               </li>
+               <li class="services__modal-service">
+                   <i class="uil uil-check-circle services__modal-icon"></i>
+                   <p>Smart and well thought interface</p>
+               </li>
+               <li class="services__modal-service">
+                   <i class="uil uil-check-circle services__modal-icon"></i>
+                   <p>Availble for any age group</p>
+               </li>
+            </ul>
+        </div>
+    </div>
+</div>
+        </div>
+    </section>
+    <!--========================PORTFOLIO=============================-->
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">My projects</span>
+
+        <div class="portfolio__container container swiper">
+            <div class="swiper-wrapper">
+                <!--========PROJECT  1===========-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="./Images/Portfolio1.png" alt="" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">My Resume</h3>
+                        <p class="portfolio__description">Basic project of my curriculum vitae created using HTML/CSS</p>
+                        <a href="#" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--========PROJECT 2===========-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="./Images/Portfolio1.png" alt="" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">My Resume</h3>
+                        <p class="portfolio__description">Responding home page with my quaifications</p>
+                        <a href="#" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--========PROJECT 3===========-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="./Images/Portfolio1.png" alt="" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">My Resume</h3>
+                        <p class="portfolio__description">Basic project of my curriculum vitae created using HTML/CSS</p>
+                        <a href="#" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+                  <div class="swiper-button-next">
+                      <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                  </div>
+                  <div class="swiper-button-prev">
+                      <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!--====================CONTACT ME=========================-->
+    <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+        <div class="contact__container container grid">
+            <div>
+
+                <div class="contact__information">
+                    <i class="uil uil-phone contact__icon"></i>
+                    <div>
+                        <h3 class="contact__title">Call Me</h3>
+                        <span class="contact__subtitle">09076181927</span>
+                    </div>
+                </div>
+
+                <div class="contact__information">
+                    <i class="uil uil-envelope contact__icon"></i>
+                    <div>
+                        <h3 class="contact__title">Email</h3>
+                        <span class="contact__subtitle">sam.jur96@gmail.com</span>
+                    </div>
+                </div>
+
+                <div class="contact__information">
+                    <i class="uil uil-map-marker contact__icon"></i>
+                    <div>
+                        <h3 class="contact__title">Location</h3>
+                        <span class="contact__subtitle">Saitama - Hibarigaoka</span>
+                    </div>
+                </div>
+            </div>
+            <form action="" class="contact__form grid">
+                <div class="contact__inputs grid">
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Name</label>
+                        <input type="text" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Email</label>
+                        <input type="email" class="contact__input">
+                    </div>
+                </div>
+                <div class="contact__content">
+                    <label for="" class="contact__label">Project</label>
+                    <input type="text" class="contact__input">
+                </div>
+                <div class="contact__content">
+                    <label for="" class="contact__label">Message</label>
+                    <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                </div>
+                <div>
+                    <a href="#" class="button button--flex">
+                        Send Message
+                        <i class="uil uil-message button__icon"></i>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+</main>
+        <!--=============================FOOTER============================-->
+<footer class="footer">
+    <div class="footer__bg">
+        <div class="footer__container container grid">
+            <div>
+                <h1 class="footer__title">Samanta</h1>
+                <span class="footer__subtitle">Frontend developer</span>
+            </div>
+
+            <ul class="footer__links">
+                <li>
+                    <a href="#services" class="footer__link">Services</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="footer__link">Poerfolio</a>
+                </li>
+                <li>
+                    <a href="#contact" class="footer__link">Contactme</a>
+                </li>
+            </ul>
+            <div class="footer__socials">
+                <a href="https://github.com/Elphame009" target="_blank" class="footer__social">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/samanta-jurkowska-943b691ab/" target="_blank" class="footer__social">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+                <a href="https://www.instagram.com/elphame009/" target="_blank" class="footer__social">
+                    <i class="uil uil-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <p class="footer__copy">&#169; Samanta Jurkowska. All right reserved</p>
+    </div>
+</footer>
+        <!--=============================SCROLL TOP==========================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+
+<script src="./js/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+    </body>
+</html>
